@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgba(2, 2, 2, 0.5);
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.navbar_links {
+  margin-left: auto;
+}
+
+.navbar_links > a {
+  margin-left: auto;
+  text-decoration: none;
+  color: wheat;
+  margin-left: 10px;
+  margin-right: 10px;
+}
